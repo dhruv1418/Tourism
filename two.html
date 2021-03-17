@@ -1,0 +1,49 @@
+<html>
+<head>
+	
+		<style>
+			body { background-image: url("images.jpg"); background-repeat:  repeat-x; background-color: aqua;}
+		</style>
+</head>
+
+<body>
+	<br><br><br><br><br><br><br><br><br><br>
+<p align=center>
+
+<center><h1> Sign in your entries </h1> </center>
+</p>
+<center>
+<form method = post>
+	<p> Persons Name:
+	<input type = "text" name="persons-name" size="40" maxlength="40">
+	<input type= "hidden" name= "recipient" size="40" maxlength= "40">
+</p>
+<p>Password:
+	<input type="Password" name="Password" size="10" maxlength="10">
+</p>
+<p>Please place me on your mailing list :
+	<input type="checkbox" name="mailing-list" value="yes" checked>
+</p>
+<p>What Country do you live in ?
+	<select name="Country">
+		<option value="IND">India
+		<option value="USA">United States
+		<option value="CA">Canada
+		<option value="FR">France
+		<option value="SPR">Singapore
+	</select>
+</p>
+
+
+<p>Comments :<br>
+	<TEXTAREA ROWS="5" COLS="50" NAME="COMMENTS">
+		Need any help? Write your complaint here!!
+	</TEXTAREA>
+</p>
+<input type="submit" name="request" value="Submit this form">
+<input type="reset" name="clear" value="Clear this form and Start over">
+</p>
+</center>
+</form>
+</body>
+</html>

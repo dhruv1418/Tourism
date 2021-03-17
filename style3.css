@@ -1,0 +1,19 @@
+main li {
+	align-content: center; font-size: 30px; text-transform: uppercase;
+}
+h1 {
+	font-size: 50px; background-color: orange;
+}
+body{
+	background-color: cyan;
+}
+td {
+	font-size: 30px;
+}
+th{
+	font-size: 50px;
+}
+caption{
+	font-size: 50px; font-style: bold; font-family: Times New Roman; 
+
+}
